@@ -1,11 +1,11 @@
 # Remix.js specific
 # {{ edit_1 }}
-/.cache
-/build
-/public/build
+*/.cache
+*/build*
+*/public/build*
 # {{ edit_2 }}
 # Dependencies
-/node_modules
+*node_modules*
 
 # Environment variables
 .env
@@ -35,16 +35,16 @@ Thumbs.db
 *.temp
 
 # Build output
-/dist
+*/dist*
 
 # Coverage directory used by tools like istanbul
-/coverage
+*/coverage*
 
 # Remix.js server output
-/api
+*/api*
 
 # Optional: Storybook build output
-/storybook-static
+*/storybook-static*
 
 # Optional: Next.js build output (if you're using Next.js alongside Remix)
-/.next
+*/.next*

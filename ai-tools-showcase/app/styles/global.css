@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+html, body {
+  height: 100%; /* Ensure body height is 100% */
+  margin: 0; /* Remove default margin */
+}
+
+body {
+  display: flex; /* Use flexbox for body */
+  flex-direction: column; /* Stack children vertically */
+}
