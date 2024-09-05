@@ -1,8 +1,9 @@
 # Remix.js specific
+# {{ edit_1 }}
 /.cache
 /build
 /public/build
-
+# {{ edit_2 }}
 # Dependencies
 /node_modules
 
